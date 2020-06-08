@@ -11,7 +11,7 @@ export class BlockchainService {
 
   constructor() {
     this.blockchainInstance.difficulty = 1;
-    this.blockchainInstance.minePendingTransactions('hi');
+    this.blockchainInstance.minePendingTransactions('demo1');
     this.generateWalletKeys();
   }
 
@@ -19,6 +19,7 @@ export class BlockchainService {
     this.blockchainInstance.minePendingTransactions(
       this.walletKeys[0].publicKey
     );
+
   }
 
   addressIsFromCurrentUser(address) {
