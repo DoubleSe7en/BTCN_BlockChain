@@ -19,7 +19,10 @@
     "@angular/platform-browser": "~9.1.9",
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
-    "btcn_blockchain_service": "github:nguyencuong1827/BTCN_BlockChain_Service",
+    "btcn_blockchain_service": "github:nguyencuong1827/BTCN_Blockchain_Service",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
